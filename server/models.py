@@ -19,3 +19,10 @@ class Pet(db.Model):
 
     def __repr__(self):
         return f'<Pet {self.id}, {self.name}, {self.species}>'
+    
+    
+    # def to_dict(self,rules=None):
+    #     # if rules:
+    #     #     #do something with the rules
+    #     return {"id":self.id, "name":self.name, "species":self.species}
+
